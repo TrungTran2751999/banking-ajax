@@ -1,0 +1,71 @@
+{
+  "customer": [
+    {
+      "id": 1,
+      "fullName": "Trung",
+      "email": "trung@gmail.com",
+      "address": "tvt-300",
+      "balance": 1000,
+      "phone": "0898192215",
+      "password": "trung123",
+      "deleted": 0
+    }
+  ],
+  "deposit": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "transaction": 1000,
+      "transactionAmount": 10000
+    },
+    {
+      "id": 2,
+      "customerId": 1,
+      "transaction": 1000,
+      "transactionAmount": 10000
+    }
+  ],
+  "withdraw": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "transaction": 1000,
+      "transactionAmount": 10000
+    },
+    {
+      "id": 1,
+      "customerId": 2,
+      "transaction": 1000,
+      "transactionAmount": 10000
+    }
+  ],
+  "transfer": [
+    {
+      "id": 1,
+      "recipientId": 1,
+      "transactionAmount": 10,
+      "transferAmount": 1000,
+      "delected": 0,
+      "feeAmount": 1000,
+      "senderId": 2
+    },
+    {
+      "id": 2,
+      "recipientId": 1,
+      "transactionAmount": 10,
+      "transferAmount": 1000,
+      "delected": 0,
+      "feeAmount": 1000,
+      "senderId": 2
+    },
+    {
+      "id": 3,
+      "recipientId": 1,
+      "transactionAmount": 10,
+      "transferAmount": 1000,
+      "delected": 0,
+      "feeAmount": 1000,
+      "senderId": 2
+    }
+  ]
+}
