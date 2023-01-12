@@ -2,13 +2,202 @@
   "customer": [
     {
       "id": 1,
-      "fullName": "Trung",
-      "email": "trung@gmail.com",
+      "fullName": "Trungggg",
+      "email": "trung@gmail.commmm",
       "address": "tvt-300",
-      "balance": 1000,
+      "balance": 0,
       "phone": "0898192215",
-      "password": "trung123",
-      "deleted": 0
+      "password": "0898192215",
+      "deleted": "0",
+      "{\"fullName\":\"Trungggg\",\"email\":\"trung@gmail.commmm\",\"phone\":\"0898192215\",\"address\":\"tvt-300\",\"balance\":0,\"deleted\":0}": "",
+      "{\"fullName\":\"Trunggggrrrr\",\"email\":\"trung@gmail.commmm\",\"phone\":\"0898192215\",\"address\":\"tvt-300\",\"balance\":0,\"deleted\":0}": "",
+      "{\"fullName\":\"Trunggggbbbbbbbb\",\"email\":\"trung@gmail.commmm\",\"phone\":\"0898192215\",\"address\":\"tvt-300\",\"balance\":0,\"deleted\":0}": ""
+    },
+    {
+      "fullName": "Trung 1",
+      "email": "baseballlgold83@gmail.com",
+      "password": "usaaaaaaaaaaaaaaaa",
+      "address": "0898192215",
+      "phone": "usaaaaaaaaaaaaaaaa",
+      "balance": "0",
+      "deleted": "0",
+      "id": 2
+    },
+    {
+      "fullName": "Trung 1",
+      "email": "baseballlgold83@gmail.com",
+      "password": "usa",
+      "address": "0898192215",
+      "phone": "usa",
+      "balance": "0",
+      "deleted": "0",
+      "id": 3
+    },
+    {
+      "fullName": "Trung",
+      "email": "Trung@gmai.com",
+      "password": "vvvvvvv",
+      "phone": "12345678",
+      "address": "123-TVT",
+      "id": 4
+    },
+    {
+      "fullName": "Trung",
+      "email": "Trung@gmai.com",
+      "password": "vvvvvvv",
+      "phone": "12345678",
+      "address": "123-TVT",
+      "id": 5
+    },
+    {
+      "fullName": "Trung",
+      "email": "Trung@gmai.com",
+      "password": "vvvvvvv",
+      "phone": "12345678",
+      "address": "123-TVT",
+      "id": 6
+    },
+    {
+      "fullName": "Trung",
+      "email": "Trung@gmai.com",
+      "password": "vvvvvvv",
+      "phone": "12345678",
+      "address": "123-TVT",
+      "id": 7
+    },
+    {
+      "fullName": "Trung",
+      "email": "Trung@gmai.com",
+      "password": "vvvvvvv",
+      "phone": "12345678",
+      "address": "123-TVT",
+      "id": 8
+    },
+    {
+      "fullName": "Trung",
+      "email": "Trung@gmai.com",
+      "password": "vvvvvvv",
+      "phone": "12345678",
+      "address": "123-TVT",
+      "id": 9
+    },
+    {
+      "fullName": "Trung",
+      "email": "Trung@gmai.com",
+      "password": "vvvvvvv",
+      "phone": "12345678",
+      "address": "123-TVT",
+      "id": 10
+    },
+    {
+      "fullName": "Trung",
+      "email": "Trung@gmai.com",
+      "password": "vvvvvvv",
+      "phone": "12345678",
+      "address": "123-TVT",
+      "id": 11
+    },
+    {
+      "fullName": "Trung",
+      "email": "Trung@gmai.com",
+      "password": "vvvvvvv",
+      "phone": "12345678",
+      "address": "123-TVT",
+      "id": 12
+    },
+    {
+      "fullName": "Trung",
+      "email": "Trung@gmai.com",
+      "password": "vvvvvvv",
+      "phone": "12345678",
+      "address": "123-TVT",
+      "id": 13
+    },
+    {
+      "fullName": "Trung 1",
+      "email": "baseballgold83@gmail.com",
+      "password": "121212",
+      "phone": "8080808080",
+      "address": "0808080",
+      "balance": "0",
+      "deleted": "0",
+      "id": 14
+    },
+    {
+      "fullName": "Trung 1",
+      "email": "baseballlgold83@gmail.com",
+      "password": "ewewe",
+      "phone": "usa ",
+      "address": "0898192215",
+      "balance": "0",
+      "deleted": "0",
+      "id": 15
+    },
+    {
+      "{\"fullName\":\"Trung 1\",\"email\":\"baseballlgold83@gmail.com\",\"password\":\"ewewe\",\"phone\":\"123-TVT\",\"address\":\"0898192215\",\"balance\":0,\"deleted\":0}": "",
+      "id": 16
+    },
+    {
+      "{\"fullName\":\"Trung 1\",\"email\":\"baseballlgold83@gmail.com\",\"password\":\"wwewe\",\"phone\":\"rettretret\",\"address\":\"0898192215\",\"balance\":0,\"deleted\":0}": "",
+      "id": 17
+    },
+    {
+      "{\"fullName\":\"Trung 1\",\"email\":\"baseballlgold83@gmail.com\",\"password\":\"ewewe\",\"phone\":\"asas\",\"address\":\"usa \",\"balance\":0,\"deleted\":0}": "",
+      "id": 18
+    },
+    {
+      "{\"fullName\":\"Trung 1\",\"email\":\"baseballlgold83@gmail.com\",\"password\":\"ewewe\",\"phone\":\"sasa\",\"address\":\"usa \",\"balance\":0,\"deleted\":0}": "",
+      "id": 19
+    },
+    {
+      "fullName": "Trung 1",
+      "email": "baseballlgold83@gmail.com",
+      "password": "ewewe",
+      "phone": "asas",
+      "address": "usa ",
+      "balance": 0,
+      "deleted": 0,
+      "id": 20
+    },
+    {
+      "fullName": "Trung 1",
+      "email": "baseballlgold83@gmail.com",
+      "password": "ewewe",
+      "phone": "0898192215 ",
+      "address": "usa ",
+      "balance": 0,
+      "deleted": 0,
+      "id": 21
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "phone": "",
+      "address": "",
+      "balance": 0,
+      "deleted": 0,
+      "id": 22
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "phone": "",
+      "address": "",
+      "balance": 0,
+      "deleted": 0,
+      "id": 23
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "phone": "",
+      "address": "",
+      "balance": 0,
+      "deleted": 0,
+      "id": 24
     }
   ],
   "deposit": [

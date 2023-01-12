@@ -1,7 +1,7 @@
 import * as ajax from "./ajax.js";
 import * as validate from "./validate.js";
 import * as display from "./display.js";
-let port = 5500;
+let port = 3300;
 let listSelector = ["fullName", "email", "password", "re-password", "phone", "address"];
 let listSelectorEdit = ["fullNameEdit", "emailEdit", "phoneEdit", "addressEdit"];
 
@@ -13,9 +13,8 @@ display.showValidateRepass(listSelectorEdit);
 
 ajax.getAllCustomer(port);
 
-$(".form-create-customer").on("submit", function (e) {
+$(".create-customer").on("click", function () {
     ajax.createNewCustomer(port, listSelector);
-    e.preventDefault();
 });
 
 $(".update-customer").on("click", function () {

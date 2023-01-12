@@ -5,7 +5,7 @@ function showAllCustomer(results){
             <th scope="row">${index+1}</th>
             <td>${result.fullName}</td>
             <td>${result.email}</td>
-            <td>${result.address}</td>
+            <td>${result.phone}</td>
             <td>${result.address}</td>
             <td style="text-align: center;">
                 <button type="button" id="editt-customer${result.id}" class="btn btn-outline-primary" data-toggle="modal" onclick="showEditModal(${result.id})" data-target="#exampleModalEdit"><i class="fas fa-edit"></i> Edit</button>

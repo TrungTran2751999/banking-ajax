@@ -1,4 +1,4 @@
-let port = 5500;
+let port = 3300;
 function showEditModal(id){
     $(".update-customer").attr("id", id);
     $.ajax({

@@ -20,23 +20,26 @@ function getCustomer(id){
         }
     })
 }
-
-function createNewCustomer(port,listSelector){
+function createNewCustomer(port,listSelector, e){
     if(validate.validateEmpty(listSelector) && validate.validateRePass("password","re-password")){
+        let newData = {
+            fullName: $("#"+listSelector[0]).val(),
+            email: $("#"+listSelector[1]).val(),
+            password: $("#"+listSelector[2]).val(),
+            phone: $("#"+listSelector[4]).val(),
+            address: $("#"+listSelector[5]).val(),
+            balance: 0,
+            deleted: 0,
+        };
         $.ajax({
-            method: "POST",
-            url: `http://localhost:${port}/customer`,
-            data:{
-                "fullName": $("#"+listSelector[0]).val(),
-                "email": $("#"+listSelector[1]).val(),
-                "password": $("#"+listSelector[2]).val(),
-                "address": $("#"+listSelector[4]).val(),
-                "phone": $("#"+listSelector[5]).val(),
-                "balance": 0,
-                "deleted": 0,
+            headers: {
+                "accept": "application/json",
+                "content-type": "application/json"
             },
-            success: display.showAlert(true, "Create Customer Successfully !")
-        })
+            type: "POST",
+            url: `http://localhost:${port}/customer`,
+            data: JSON.stringify(newData),
+        });
     }else{
         display.showAlert(false, "Create Customer Failed !")
     }
